@@ -9,14 +9,14 @@ module.exports = {
         "commandPrefix": "+", // Bot prefix to trigger the bot <- if symbol changed it needs to get allowed on check.js
         "cooldownTime": 10, // Cooldown a user need to wait between commands in seconds
         "activeUserTime": 600, // Seconds a user counts as active for rain online users
-        "botID": "XXX", // Bot Discord ID - important else it react to own messages 
-        "adminIDs": [ "XXX", "XXX", "XXX" ], // This discrod user IDs are able to use admin commands and bypass cooldowns
-        "moderatorIDs": [ "XXX" ], // This discrod user IDs are able to use moderator commands and bypass cooldowns
+        "botID": "1438538674810912788", // Bot Discord ID - important else it react to own messages 
+        "adminIDs": [ "1301883723247124521", "1423252693253619753" ], // This discrod user IDs are able to use admin commands and bypass cooldowns
+        "moderatorIDs": [ "1423252693253619753" ], // This discrod user IDs are able to use moderator commands and bypass cooldowns
         "vipGroupName": "Dev Team", // Users of this group are able to use vip commands and bypass cooldowns
         "respondChannelIDs": [ "XXX" ], // Discord server channel IDs the bot does listen to
         "allowAllChannels": false, // If enabled the bot will be able to reply in all channels making it essentially a public bot
         "commandIgnor": ["battle","cversion","destroy","gift","kill","lock","me","rez","top","use","me","cstart","cstop","cstart","jackpot","summary","shop","activate","mention","claim"], // commands to ignor because of other bots
-        "stakePoolChannelID": "XXX", // If staking is configured use this channel to broadcast stake pool payouts
+        "stakePoolChannelID": "1421071911835664425", // If staking is configured use this channel to broadcast stake pool payouts
         "allowDM": true, // Allow or disable direct messages for commands to the bot with true or false
         "botToken": "XXX", // Discord bot token
         "listUsers": 30, // Define how many users get listed in one message on rain or drop <- Take care about 2200 letters limit from discord
@@ -38,12 +38,12 @@ module.exports = {
     },
     "wallet":{
         "server": "127.0.0.1", // Wallet server
-        "user": "XXX", // Wallet username
-        "password": "XXX", // Wallet password
+        "user": "crypto wallet", // Wallet username
+        "password": "kabirjuneja123", // Wallet password
         "port": "1234", // Wallet port
         // TODO ENCRYPTION KEY FOR WALLET
-        "coinSymbol": "Coin (CoinSymbol)", // Coin name
-        "coinSymbolShort": "Symbol", // Coin name
+        "coinSymbol": "shadow (SHW)", // Coin name
+        "coinSymbolShort": "SHW", // Coin name
         "thumbnailIcon": "https://domain.link/image.png", // Thumbnail icon for all messages (need to get enabled first in code to work = not ready)
         "check": true, // If enabled it checks (cron) for new transactions
         "credit": true, // If enabled it credits (cron) new transactions
